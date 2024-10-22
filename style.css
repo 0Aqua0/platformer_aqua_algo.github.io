@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+@media screen and (max-width: 1919px){
+    body{
+        display: none;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.first_cont{
+    justify-content: center;
+    display: flex;
+    background: #F6F6F6;
+    height: 253px;
+    align-items: center;
+}
+
+.first_part_welcome, .second_part_welcome{
+    display: inline;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #000000;
+}
+
+.secomd_part_welcome{
+    margin-left: 70px;
+}
+
+.second_cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #D9D9D9;
+    height: 1080px;
+    border-radius: 0px 0px 80px 80px;
+}
+
+.game_name{
+    margin-top: 148px;
+    width: 1028px;
+    height: 208px;
+    background: #9D9D9D;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    display: inline;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #000000;
+}
+
+.mushrum_1{
+    position: absolute;
+    width: 194.98px;
+    height: 184.38px;
+    left: 150.97px;
+    top: 243.59px;
+    transform: rotate(-33.11deg);
+}
+
+.mushrum_2{
+    position: absolute;
+    width: 120.67px;
+    height: 114.23px;
+    left: 150.97px;
+    top: 500px;
+    transform: rotate(21.48deg);
+}
+
+.mushrum_3{
+    position: absolute;
+    width: 267.6px;
+    height: 246.86px;
+    left: 150.97px;
+    top: 684px;
+    transform: rotate(22.34deg);
+}
+
+.mushrum_4{
+    position: absolute;
+    width: 243.13px;
+    height: 228.63px;
+    left: 1670px;
+    top: 222.73px;
+    transform: rotate(33.11deg);
+}
+
+.mushrum_5{
+    position: absolute;
+    width: 104.53px;
+    height: 105.26px;
+    left: 1727.2px;
+    top: 525.94px;
+    transform: rotate(-21.48deg);
+}
+
+.mushrum_6{
+    position: absolute;
+    width: 247.6px;
+    height: 226.86px;
+    left: 1670px;
+    top: 684px;
+    transform: rotate(-22.34deg);
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    left: 500px;
+    top: 500px;
+    background: #9D9D9D;
+    border-radius: 180px;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    left: 1300px;
+    top: 500px;
+    background: #9D9D9D;
+    border-radius: 180px;
+}
+
+.settings-logo{
+    width: 100.76px;
+    height: 100px;
+}
+
+.shop-logo{
+    width: 120px;
+    height: 120px;
+}
+
+.play_button{
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    top: 700px;
+    border-radius: 222px;
+    background-color: #9D9D9D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.play_text{
+    display: inline;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #000000;
+}
+
+.game{
+    display: none;
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+    position: relative;
+}
+
+.player{
+    position: absolute;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+}
+
+.scene{
+    display: none;
+}
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #000000;
+}
+
+.secomd_part_welcome{
+    margin-left: 70px;
+}
+
+.second_cont{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: #D9D9D9;
+    height: 1080px;
+    border-radius: 0px 0px 80px 80px;
+}
+
+.game_name{
+    margin-top: 148px;
+    width: 1028px;
+    height: 208px;
+    background: #9D9D9D;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name{
+    display: inline;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #000000;
+}
+
+.mushrum_1{
+    position: absolute;
+    width: 194.98px;
+    height: 184.38px;
+    left: 150.97px;
+    top: 243.59px;
+    transform: rotate(-33.11deg);
+}
+
+.mushrum_2{
+    position: absolute;
+    width: 120.67px;
+    height: 114.23px;
+    left: 150.97px;
+    top: 500px;
+    transform: rotate(21.48deg);
+}
+
+.mushrum_3{
+    position: absolute;
+    width: 267.6px;
+    height: 246.86px;
+    left: 150.97px;
+    top: 684px;
+    transform: rotate(22.34deg);
+}
+
+.mushrum_4{
+    position: absolute;
+    width: 243.13px;
+    height: 228.63px;
+    left: 1670px;
+    top: 222.73px;
+    transform: rotate(33.11deg);
+}
+
+.mushrum_5{
+    position: absolute;
+    width: 104.53px;
+    height: 105.26px;
+    left: 1727.2px;
+    top: 525.94px;
+    transform: rotate(-21.48deg);
+}
+
+.mushrum_6{
+    position: absolute;
+    width: 247.6px;
+    height: 226.86px;
+    left: 1670px;
+    top: 684px;
+    transform: rotate(-22.34deg);
+}
+
+.settings{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    left: 500px;
+    top: 500px;
+    background: #9D9D9D;
+    border-radius: 180px;
+}
+
+.shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 202px;
+    height: 202px;
+    left: 1300px;
+    top: 500px;
+    background: #9D9D9D;
+    border-radius: 180px;
+}
+
+.settings-logo{
+    width: 100.76px;
+    height: 100px;
+}
+
+.shop-logo{
+    width: 120px;
+    height: 120px;
+}
+
+.play_button{
+    position: absolute;
+    width: 400px;
+    height: 260px;
+    top: 700px;
+    border-radius: 222px;
+    background-color: #9D9D9D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px;
+}
+
+.play_text{
+    display: inline;
+    font-family: 'Jua';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #000000;
+}
